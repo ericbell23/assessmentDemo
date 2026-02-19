@@ -7,3 +7,6 @@ export interface Transaction {
   status: TransactionStatus;
   timestamp: Date;
 }
+
+// Add this constant
+export const HIGH_VALUE_THRESHOLD = 10000;
